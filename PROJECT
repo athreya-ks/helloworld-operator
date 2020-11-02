@@ -1,0 +1,7 @@
+domain: example.com
+layout: go.kubebuilder.io/v2
+projectName: helloworld-operator
+repo: github.com/athreya-ks/helloworld-operator
+version: 3-alpha
+plugins:
+  go.sdk.operatorframework.io/v2-alpha: {}
