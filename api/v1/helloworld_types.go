@@ -38,7 +38,7 @@ type HelloworldSpec struct {
 type HelloworldStatus struct {
 	// INSERT ADDITIONAL STATUS FIELD - define observed state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
-	// Nodes are the names of the memcached pods
+	// Nodes are the names of the helloworld pods
 	Nodes []string `json:"nodes"`
 }
 
